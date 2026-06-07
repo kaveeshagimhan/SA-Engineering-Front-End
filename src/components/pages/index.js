@@ -9,6 +9,8 @@ export { default as OurClientPage }
 from './OurClientPage';
 export { default as ConstructionProjectsPage }
 from './ConstructionProjectsPage';
+export { default as ProjectDetailsPage }
+from './ProjectDetailsPage';
 export { default as InvestorsPage }
 from './InvestorsPage';
 export { default as NewsNotificationPage }
