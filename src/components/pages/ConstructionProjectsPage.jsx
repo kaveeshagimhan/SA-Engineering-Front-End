@@ -9,36 +9,30 @@ import "swiper/css/pagination";
 const ConstructionProjectsPage = () => {
   const projectsData = [
     {
-      title: "Colombo Smart City Project",
-      date: "October 2025",
+      title: "Udappuwa Project",
+      date: "Ongoing",
       description:
-        "A modern urban infrastructure project aimed at transforming Colombo into a smart city with IoT-based traffic management, waste handling, and sustainable housing developments. SA Engineering is handling the civil and systems integration aspects with eco-friendly materials and smart sensors.",
+        "A state-of-the-art wedding hall project located in Udappuwa, designed to host elegant events and ceremonies.",
       images: [
-        "/images/project/project1_1.jpg",
-        "/images/project/project1_2.jpg",
-        "/images/project/project1_3.jpg",
+        "/images/project/Udappuwa site/20260521_165542.jpg.jpeg",
       ],
     },
     {
-      title: "Northern Highway Expansion",
-      date: "September 2025",
+      title: "Chilaw Project",
+      date: "Ongoing",
       description:
-        "SA Engineering is leading the expansion of the northern expressway network to improve connectivity between major provinces. This project focuses on reducing travel time by up to 40% while maintaining high safety and quality standards across all segments.",
+        "A modern residential apartment complex situated in Chilaw, offering premium living spaces with high-quality finishes.",
       images: [
-        "/images/project/project2_1.jpg",
-        "/images/project/project2_2.jpg",
-        "/images/project/project2_3.jpg",
+        "/images/project/Chilaw site/20260521_155054.jpg.jpeg",
       ],
     },
     {
-      title: "Hydroelectric Power Plant Upgrade",
-      date: "August 2025",
+      title: "Madurankuliya Project",
+      date: "Ongoing",
       description:
-        "Upgrading the Mahaweli hydro plant with next-generation turbines and real-time monitoring systems to enhance efficiency and reduce environmental impact. The upgraded facility will provide more sustainable power to the national grid.",
+        "A commercial chicken farm facility in Madurankuliya, built with advanced structural designs for sustainable poultry farming.",
       images: [
-        "/images/project/project3_1.jpg",
-        "/images/project/project3_2.jpg",
-        "/images/project/project3_3.jpg",
+        "/images/project/Madurankuliya site/20260521_175004.jpg.jpeg",
       ],
     },
   ];
