@@ -11,6 +11,7 @@ import {
   OurClientPage,
   SustainablePage,
   OurStoryPage,
+  ProjectDetailsPage,
 } from './components/pages'
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <Route path="/team" element={<OurTeamPage />} />
       <Route path="/client" element={<OurClientPage />} />
       <Route path="/construction-projects" element={<ConstructionProjectsPage />} />
+      <Route path="/projects/:id" element={<ProjectDetailsPage />} />
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   )
