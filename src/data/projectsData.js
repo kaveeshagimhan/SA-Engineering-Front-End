@@ -56,8 +56,8 @@ export const projectsData = [{
         description: "A commercial chicken farm facility in Madurankuliya, built with advanced structural designs for sustainable poultry farming. The project focuses on automated feeding systems, climate-controlled environments, and efficient waste management systems to ensure maximum productivity and adherence to international farming standards.",
         shortDescription: "A commercial chicken farm facility in Madurankuliya, built with advanced structural designs for sustainable poultry farming.",
         images: [
-            "/images/project/Madurankuliya site/Image 1.jpeg",
             "/images/project/Madurankuliya site/Image 2.jpeg",
+            "/images/project/Madurankuliya site/Image 1.jpeg",
             "/images/project/Madurankuliya site/Image 3.jpeg",
             "/images/project/Madurankuliya site/Image 4.jpeg",
             "/images/project/Madurankuliya site/Image 5.jpeg",
