@@ -79,7 +79,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col items-end justify-center">
             <img
-              src="src/assets/icon.png"
+              src="/src/assets/icon.png"
               alt="SA Engineering QR Code"
               className="w-40 h-40"
             />
@@ -98,7 +98,7 @@ const Footer = () => {
                 className="text-gray-800 hover:text-red-600 transition-colors"
               >
                 <img
-                  src="src/assets/face.png"
+                  src="/src/assets/face.png"
                   alt="Facebook"
                   className="w-5 h-5"
                 />
@@ -108,7 +108,7 @@ const Footer = () => {
                 className="text-gray-800 hover:text-red-600 transition-colors"
               >
                 <img
-                  src="src/assets/linked.png"
+                  src="/src/assets/linked.png"
                   alt="LinkedIn"
                   className="w-5 h-5"
                 />
@@ -118,7 +118,7 @@ const Footer = () => {
                 className="text-gray-800 hover:text-red-600 transition-colors"
               >
                 <img
-                  src="src/assets/insta.png"
+                  src="/src/assets/insta.png"
                   alt="Instagram"
                   className="w-5 h-5"
                 />

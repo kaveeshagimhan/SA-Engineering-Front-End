@@ -55,7 +55,7 @@ const Header = ({
         <div className="flex items-center justify-between mb-3">
           <Link to="/" className="flex items-center gap-2">
             <div className="bg-white rounded-full p-0.5">
-              <img src="src/assets/icon.png" alt="Icon" className="w-15 h-15" />
+              <img src="/src/assets/icon.png" alt="Icon" className="w-15 h-15" />
             </div>
             <div className="flex flex-col">
               <span className="text-3xl font-bold leading-tight mb-1">
