@@ -19,6 +19,17 @@ export const projectsData = [{
             "/images/project/Udappuwa site/Image 8.jpeg",
             "/images/project/Udappuwa site/Image 9.jpeg",
         ],
+        images3D: [
+            "/images/project/Udappuwa site/3D/WhatsApp Image 2026-05-28 at 10.05.24 AM.jpeg",
+            "/images/project/Udappuwa site/3D/WhatsApp Image 2026-05-28 at 10.05.25 AM (2).jpeg",
+            "/images/project/Udappuwa site/3D/WhatsApp Image 2026-05-28 at 10.05.25 AM.jpeg",
+            "/images/project/Udappuwa site/3D/WhatsApp Image 2026-05-28 at 10.05.27 AM (1).jpeg",
+            "/images/project/Udappuwa site/3D/WhatsApp Image 2026-05-28 at 10.05.28 AM.jpeg",
+            "/images/project/Udappuwa site/3D/WhatsApp Image 2026-05-28 at 10.05.33 AM.jpeg",
+            "/images/project/Udappuwa site/3D/WhatsApp Image 2026-05-28 at 10.05.34 AM (1).jpeg",
+            "/images/project/Udappuwa site/3D/WhatsApp Image 2026-05-28 at 10.05.35 AM (1).jpeg",
+            "/images/project/Udappuwa site/3D/WhatsApp Image 2026-05-28 at 10.05.40 AM (1).jpeg",
+        ],
     },
     {
         id: "chilaw-project",
