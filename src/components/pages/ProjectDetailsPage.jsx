@@ -33,13 +33,13 @@ const ProjectDetailsPage = () => {
   return (
     <Layout pageTitle={project.title}>
       {/* Hero Section */}
-      <div className="relative w-full h-[50vh] min-h-[400px]">
+      <div className="relative w-full h-[60vh] min-h-[450px]">
         <img
           src={project.images[0]}
           alt={project.title}
           className="w-full h-full object-cover brightness-50"
         />
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-white px-6 text-center">
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-white px-6 text-center pt-32">
           <span className="bg-orange-600 px-3 py-1 rounded-full text-sm font-semibold mb-4 tracking-wide">
             {project.category}
           </span>

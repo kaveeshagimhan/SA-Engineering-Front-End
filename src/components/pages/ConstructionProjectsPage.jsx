@@ -11,10 +11,18 @@ import "swiper/css/pagination";
 const ConstructionProjectsPage = () => {
 
   return (
-    <Layout pageTitle="Construction Projects">
-      {/* Banner Section */}
-      <div className="flex items-center justify-center h-64 bg-gradient-to-r from-orange-700 to-yellow-500 text-white text-center">
-        <h1 className="text-4xl md:text-5xl font-bold">Construction Projects</h1>
+    <Layout pageTitle="Our Projects">
+      {/* Hero Section */}
+      <div className="relative w-full h-[60vh] min-h-[450px]">
+        <img
+          src="/images/project/project2_1.jpg"
+          alt="Our Projects"
+          className="w-full h-full object-cover brightness-50"
+        />
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-white px-6 text-center pt-32">
+          <h1 className="text-4xl md:text-5xl font-extrabold mb-4 drop-shadow-lg tracking-wider">Our Projects</h1>
+          <div className="w-24 h-1 bg-orange-500 rounded-full mx-auto"></div>
+        </div>
       </div>
 
       {/* Content Section */}

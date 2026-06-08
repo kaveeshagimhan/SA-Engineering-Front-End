@@ -7,8 +7,8 @@ const Header = ({
 }) => {
   const navigate = useNavigate()
   const location = useLocation()
-  const isHome = location.pathname === '/'
-  const headerTextColor = isHome ? 'text-white font-bold' : textColor
+  const isTransparentHeader = true
+  const headerTextColor = isTransparentHeader ? 'text-white font-bold' : textColor
   const [showWhoWeAre, setShowWhoWeAre] = useState(false)
   const [showWhatWeDo, setShowWhatWeDo] = useState(false)
 
@@ -35,12 +35,12 @@ const Header = ({
   return (
     <header
       className={`w-full ${
-        isHome
+        isTransparentHeader
           ? 'backdrop-blur-sm bg-white/10 absolute top-0 left-0 right-0 z-50'
           : `backdrop-blur-sm bg-gradient-to-b ${bgGradient}`
       } ${headerTextColor}`}
       style={
-        isHome
+        isTransparentHeader
           ? { background: 'transparent' }
           : {
               background:
@@ -111,7 +111,7 @@ const Header = ({
               {showWhoWeAre && (
                 <div
                   className={`absolute top-full left-0 mt-2 rounded shadow-lg py-2 min-w-[180px] z-50 ${
-                    isHome
+                    isTransparentHeader
                       ? 'backdrop-blur-md bg-white/10 text-white font-semibold'
                       : 'bg-white text-black font-bold'
                   }`}
@@ -123,7 +123,7 @@ const Header = ({
                       navigate('/about')
                     }}
                     className={`block px-4 py-2 w-full text-left text-sm whitespace-nowrap ${
-                      isHome ? 'hover:bg-white/20' : 'hover:bg-gray-200'
+                      isTransparentHeader ? 'hover:bg-white/20' : 'hover:bg-gray-200'
                     }`}
                   >
                     About Us
@@ -135,7 +135,7 @@ const Header = ({
                       navigate('/team')
                     }}
                     className={`block px-4 py-2 w-full text-left text-sm whitespace-nowrap ${
-                      isHome ? 'hover:bg-white/20' : 'hover:bg-gray-200'
+                      isTransparentHeader ? 'hover:bg-white/20' : 'hover:bg-gray-200'
                     }`}
                   >
                     Our Team
@@ -147,7 +147,7 @@ const Header = ({
                       navigate('/values')
                     }}
                     className={`block px-4 py-2 w-full text-left text-sm whitespace-nowrap ${
-                      isHome ? 'hover:bg-white/20' : 'hover:bg-gray-200'
+                      isTransparentHeader ? 'hover:bg-white/20' : 'hover:bg-gray-200'
                     }`}
                   >
                     Our Values
@@ -173,7 +173,7 @@ const Header = ({
               {showWhatWeDo && (
                 <div
                   className={`absolute top-full left-0 mt-2 rounded shadow-lg py-2 min-w-[180px] z-50 ${
-                    isHome
+                    isTransparentHeader
                       ? 'backdrop-blur-md bg-white/10 text-white font-semibold'
                       : 'bg-white text-black font-bold'
                   }`}
@@ -185,7 +185,7 @@ const Header = ({
                       navigate('/engineering-services')
                     }}
                     className={`block px-4 py-2 w-full text-left text-sm whitespace-nowrap ${
-                      isHome ? 'hover:bg-white/20' : 'hover:bg-gray-200'
+                      isTransparentHeader ? 'hover:bg-white/20' : 'hover:bg-gray-200'
                     }`}
                   >
                     Engineering Services
@@ -197,7 +197,7 @@ const Header = ({
                       navigate('/consulting')
                     }}
                     className={`block px-4 py-2 w-full text-left text-sm whitespace-nowrap ${
-                      isHome ? 'hover:bg-white/20' : 'hover:bg-gray-200'
+                      isTransparentHeader ? 'hover:bg-white/20' : 'hover:bg-gray-200'
                     }`}
                   >
                     Consulting
@@ -209,7 +209,7 @@ const Header = ({
                       navigate('/projects')
                     }}
                     className={`block px-4 py-2 w-full text-left text-sm whitespace-nowrap ${
-                      isHome ? 'hover:bg-white/20' : 'hover:bg-gray-200'
+                      isTransparentHeader ? 'hover:bg-white/20' : 'hover:bg-gray-200'
                     }`}
                   >
                     Projects
