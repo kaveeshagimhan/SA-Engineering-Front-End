@@ -71,4 +71,21 @@ export const projectsData = [{
             "/images/project/Madurankuliya site/Image 13.jpeg",
         ],
     },
+    {
+        id: "marawila-project",
+        title: "Marawila Beach Park",
+        date: "Completed",
+        client: "Local Municipality",
+        location: "Marawila, Sri Lanka",
+        value: "Confidential",
+        category: "Recreational / Park",
+        description: "A beautifully landscaped beach park project located in Marawila. Completed to the highest standards, this project features scenic walkways, recreational areas, and eco-friendly infrastructure designed to enhance coastal tourism and provide a relaxing environment for the local community.",
+        shortDescription: "A beautifully landscaped coastal beach park featuring scenic walkways and recreational areas.",
+        images: [
+            "/images/project/Marawila site/WhatsApp Image 2026-06-08 at 1.26.29 PM (1).jpeg",
+            "/images/project/Marawila site/WhatsApp Image 2026-06-08 at 1.26.32 PM.jpeg",
+            "/images/project/Marawila site/WhatsApp Image 2026-06-08 at 1.26.34 PM (1).jpeg",
+            "/images/project/Marawila site/WhatsApp Image 2026-06-08 at 1.26.36 PM (1).jpeg",
+        ],
+    },
 ];

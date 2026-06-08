@@ -108,12 +108,6 @@ const ProjectDetailsPage = () => {
               </ul>
 
               <div className="mt-8 pt-8 border-t border-gray-200">
-                <Link
-                  to="/projects"
-                  className="w-full block text-center bg-gray-900 text-white py-3 rounded-xl font-semibold hover:bg-gray-800 transition-colors shadow-md"
-                >
-                  View All Projects
-                </Link>
               </div>
             </div>
           </div>
