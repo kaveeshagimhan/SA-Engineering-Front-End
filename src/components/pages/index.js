@@ -27,3 +27,5 @@ export { default as SustainablePage }
 from './SustainablePage';
 export { default as OthersPage }
 from './OthersPage';
+export { default as ContactUsPage }
+from './ContactUsPage';

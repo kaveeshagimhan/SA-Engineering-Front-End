@@ -12,7 +12,7 @@ const OurStoryPage = () => {
     <Layout pageTitle="About Us">
       {/* HERO Section */}
       <section 
-        className="relative bg-cover bg-center h-[60vh] flex items-center justify-center"
+        className="relative bg-cover bg-center h-[100vh] flex items-center justify-center"
         style={{ backgroundImage: "url('src/assets/EngService/about1.jpg')" }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
