@@ -7,6 +7,7 @@ import swimmingPoolImg from '../../assets/EngService/swimming-pool.jpg'
 import wasteWaterImg from '../../assets/EngService/waste-water.jpg'
 import automationImg from '../../assets/EngService/automation.jpg'
 import industrialEquipmentImg from '../../assets/EngService/industrial-equipment.jpg'
+import heroImg from '../../assets/EngService/boilers.jpg'
 
 const EngineeringServices = () => {
   const services = [
@@ -145,6 +146,33 @@ const EngineeringServices = () => {
 
   return (
     <Layout pageTitle="Engineering Services">
+
+      {/* Hero Section */}
+      <section
+        className="relative bg-cover bg-center h-[80vh] flex items-center justify-center"
+        style={{ backgroundImage: `url(${heroImg})` }}
+      >
+        <div className="absolute inset-0 bg-black opacity-60"></div>
+        <div className="relative z-10 text-center px-10">
+          <motion.h1
+            className="text-6xl font-bold text-white mb-4 drop-shadow-md"
+            initial={{ opacity: 0, y: -30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+          >
+            Engineering Services
+          </motion.h1>
+          <motion.p
+            className="text-2xl text-white drop-shadow-md max-w-4xl mx-auto"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+          >
+            Delivering innovative, reliable, and sustainable engineering solutions across boilers, water treatment, automation, and more.
+          </motion.p>
+        </div>
+      </section>
+
       <section className="py-12 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto space-y-12">
           {services.map((service, index) => (
