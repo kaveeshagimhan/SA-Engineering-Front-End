@@ -69,7 +69,7 @@ const ContactUsPage = () => {
   return (
     <Layout pageTitle="Contact Us">
       {/* Hero Section */}
-      <div className="relative w-full h-[60vh] min-h-[450px]">
+      <div className="relative w-full h-[80vh] min-h-[550px]">
         <img
           src="/images/project/project1_1.jpg"
           alt="Contact Us"
