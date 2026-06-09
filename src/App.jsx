@@ -12,6 +12,7 @@ import {
   SustainablePage,
   OurStoryPage,
   ProjectDetailsPage,
+  ContactUsPage,
 } from './components/pages'
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
       <Route path="/engineering-services" element={<EngineeringServicesPage />} />
       <Route path="/consulting" element={<PlaceholderPage title="Consulting" />} />
       <Route path="/projects" element={<ConstructionProjectsPage />} />
-      <Route path="/contact" element={<PlaceholderPage title="Contact Us" />} />
+      <Route path="/contact" element={<ContactUsPage />} />
       <Route path="/sustainability" element={<SustainablePage title="Sustainability" />} />
       <Route path="/join" element={<PlaceholderPage title="Join" />} />
       <Route path="/news" element={<NewsNotificationPage />} />
