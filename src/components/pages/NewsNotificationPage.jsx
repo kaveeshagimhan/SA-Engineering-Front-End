@@ -46,12 +46,21 @@ const NewsNotificationPage = () => {
 
   return (
     <Layout pageTitle="News & Notifications">
-      {/* Banner Section */}
-      <div className="flex items-center justify-center h-64 bg-gradient-to-r from-cyan-800 to-cyan-500 text-white text-center">
-        <h1 className="text-4xl md:text-5xl font-bold">
-          News & Notifications
-        </h1>
-      </div>
+      {/* Hero Banner Section */}
+      <section
+        className="relative bg-cover bg-center h-[100vh] flex items-center justify-center"
+        style={{ backgroundImage: "url('/images/news/news1_1.jpg')" }}
+      >
+        <div className="absolute inset-0 bg-black opacity-55"></div>
+        <div className="relative z-10 text-center px-10">
+          <h1 className="text-6xl font-bold text-white mb-4 drop-shadow-md">
+            News &amp; Notifications
+          </h1>
+          <p className="text-2xl text-white drop-shadow-md max-w-4xl mx-auto">
+            Stay up to date with the latest projects, achievements, and announcements from SA Engineering.
+          </p>
+        </div>
+      </section>
 
       {/* Content Section */}
       <div className="max-w-6xl mx-auto py-16 px-6">
